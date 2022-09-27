@@ -52,7 +52,7 @@
 
             <?php if (!empty($viewData['info'])) { ?>
                 <div class="user">
-                    <p><?php echo utf8_encode($viewData['info']->getNome()); ?>eu jose</p>
+                    <p><?php echo utf8_encode($viewData['info']->getName()); ?></p>
                 </div>
                 <a href="<?php echo BASE_URL ?>login/logout">
                     <div class="logout">

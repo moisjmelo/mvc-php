@@ -12,3 +12,6 @@
 
  usuaruio moisesjmelo
  password moisesjmelo752631
+
+forçar commit
+ git push --force-with-lease origin-push
