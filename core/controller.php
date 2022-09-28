@@ -11,7 +11,7 @@ class controller {
     }
 
     public function index(){
-        echo '...'."<br/>";
+        
     }
 
     public function loadView($viewName, $viewData = array()) {
@@ -25,7 +25,7 @@ class controller {
         require 'views/template.php';
     }
 
-    public function loadTemplateCurso($viewName, $viewData = array()) {
+    public function loadTemplateCourse($viewName, $viewData = array()) {
         extract($viewData);
         require 'views/template_curso.php';
     }
@@ -36,7 +36,7 @@ class controller {
         require 'views/'.$viewName.'/'.$viewName.'.php';
     }
 
-    public function loadViewInTemplateCurso($viewName, $viewData = array()) {
+    public function loadViewInTemplateCourse($viewName, $viewData = array()) {
         extract($viewData);
        if($viewName == 'curso_aula_video'){
         require 'views/curso_aula_video/curso_aula_video.php';
